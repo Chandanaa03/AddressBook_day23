@@ -18,8 +18,8 @@ namespace AddressBook
             //obj.addperson();
             //editname obj = new editname();
             //obj.Editname();
-            addnewcontact obj = new addnewcontact();
-            obj.newcontact();
+            DeleteName obj = new DeleteName();
+            obj.deletecontact();
         }
     }
 }
