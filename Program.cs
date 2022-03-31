@@ -14,8 +14,10 @@ namespace AddressBook
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book program");
-            CreateContacts obj = new CreateContacts();
-            obj.addperson();
+            //CreateContacts obj = new CreateContacts();
+            //obj.addperson();
+            editname obj = new editname();
+            obj.Editname();
         }
     }
 }
